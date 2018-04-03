@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    android:contentDescription="@string/songDetailsView"
+    android:fillViewport="true">
+
+    <LinearLayout style="@style/VerticalLinearLayout">
+
+        <ImageView
+            android:id="@+id/detail_songImg"
+            style="@style/SongDetailsImage"
+            android:contentDescription="@string/songArt" />
+
+        <TextView
+            android:id="@+id/detail_songName"
+            style="@style/SongDetailsName" />
+
+        <LinearLayout style="@style/SongDetailsLinearLayout">
+
+            <TextView
+                style="@style/SongDetailsLabel"
+                android:text="@string/albumLabel" />
+
+            <TextView
+                android:id="@+id/detail_songAlbum"
+                style="@style/SongDetailsInfo" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongDetailsLinearLayout">
+
+            <TextView
+                style="@style/SongDetailsLabel"
+                android:text="@string/album_yearLabel" />
+
+            <TextView
+                android:id="@+id/detail_songAlbumYear"
+                style="@style/SongDetailsInfo" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongDetailsLinearLayout">
+
+            <TextView
+                style="@style/SongDetailsLabel"
+                android:text="@string/artistLabel" />
+
+            <TextView
+                android:id="@+id/detail_songArtist"
+                style="@style/SongDetailsInfo" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongDetailsLinearLayout">
+
+            <TextView
+                style="@style/SongDetailsLabel"
+                android:text="@string/durationLabel" />
+
+            <TextView
+                android:id="@+id/detail_songDuration"
+                style="@style/SongDetailsInfo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SongDetailsLinearLayout"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/detail_songVideoLink"
+                style="@style/SongDetailsLinks" />
+
+            <TextView
+                android:id="@+id/detail_songAudioLink"
+                style="@style/SongDetailsLinks" />
+
+            <TextView
+                android:id="@+id/detail_songLyricsLink"
+                style="@style/SongDetailsLinks" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SongDetailsLinearLayout"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btn_backToSongList"
+                style="@style/SongDetailsButton"
+                android:text="@string/backToSongsListBtn" />
+
+            <Button
+                android:id="@+id/btn_backToCategoryList"
+                style="@style/SongDetailsButton"
+                android:text="@string/backToHomepageBtn" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

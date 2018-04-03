@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SongSuggestion</string>
+    <string name="albumLabel">Album:</string>
+    <string name="album_yearLabel">Album Year:</string>
+    <string name="artistLabel">Artist:</string>
+    <string name="durationLabel">Duration:</string>
+    <string name="backToSongsListBtn">Back to songs list</string>
+    <string name="backToHomepageBtn">Back to HomePage</string>
+    <string name="songDetailsView">Song Details View</string>
+    <string name="songArt">Song Art</string>
+    <string name="songCategoryImage">Song Category Image</string>
+</resources>
